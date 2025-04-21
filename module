@@ -1,0 +1,11 @@
+terraform-project/
+├── modules/           # Reusable modules (we’ll do this soon)
+├── envs/
+│   ├── dev/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── dev.tfvars
+│   └── prod/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── prod.tfvars
